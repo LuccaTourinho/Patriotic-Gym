@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+
 import { 
   Merriweather, 
   Roboto_Slab, 
@@ -6,12 +7,22 @@ import {
   Oswald,
   Raleway 
 } from "next/font/google";
+
 import "./globals.css";
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
 import { cn } from "@/lib/utils"; 
 
-// const inter = Inter({ subsets: ["latin"] });
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+
 const merriweather = Merriweather({ 
   subsets: ["latin"],
   weight: [ "300", "400", "700", "900" ],
@@ -45,6 +56,11 @@ const fonts = cn(
   oswald.variable, 
   raleway.variable
 );
+
+// Impede que o Font Awesome adicione automaticamente o CSS, pois já o importamos
+config.autoAddCss = false;
+
+library.add(fas, far, fab);
 
 export const metadata: Metadata = {
   title: "Patriot Gym",
