@@ -67,3 +67,27 @@
     @apply bg-background text-foreground;
   }
 }
+
+.active {
+  @apply text-[#6C2E04];
+}
+
+.font-merriweather{
+  font-family: var(--font-merriweather);
+}
+
+.font-playfair-display{
+  font-family: var(--font-playfair-display);
+}
+
+.font-roboto-slab{
+  font-family: var(--font-roboto-slab);
+}
+
+.font-oswald{
+  font-family: var(--font-oswald);
+}
+
+.font-raleway{
+  font-family: var(--font-raleway);
+}
