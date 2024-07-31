@@ -91,3 +91,10 @@
 .font-raleway{
   font-family: var(--font-raleway);
 }
+
+.hero-section {
+  background-image: url('/fatfree3.jpeg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

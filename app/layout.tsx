@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+// import for google fonts
 import { 
   Merriweather, 
   Roboto_Slab, 
@@ -8,13 +9,16 @@ import {
   Raleway 
 } from "next/font/google";
 
+// css import
 import "./globals.css";
 
+// components import
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 import { cn } from "@/lib/utils"; 
 
+// Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
@@ -74,7 +78,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fonts + `w-full max-w-[1920px] mx-auto bg-[#0A3161]`}>
+      <body className={fonts + `w-full max-w-[1920px] mx-auto`}>
         <Header/>
         {children}
         <Footer/>
