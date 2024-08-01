@@ -56,7 +56,7 @@ const About: React.FunctionComponent<IAboutProps> = (props) => {
               initial="hidden"
               whileInView="show"
               viewport={{ once: false , amount: 0.2}}	
-              className='text-3xl font-roboto-slab text-[#6C2E04] text-center'
+              className='text-3xl font-roboto-slab text-[#0A3161] text-center'
             >
               About us
             </motion.h2>
@@ -65,7 +65,7 @@ const About: React.FunctionComponent<IAboutProps> = (props) => {
               initial="hidden"
               whileInView="show"
               viewport={{ once: false , amount: 0.2}}	
-              className='text-md font-oswald text-[#6C2E04] text-center'
+              className='text-md font-oswald text-[#0A3161] text-center'
             >
               At Fat Free, we empower you to break free from limits and embrace strength and independence. <br className='hidden lg:block'/> 
               Our expert trainers, state-of-the-art facilities, and supportive community are here to help you reach your fitness goals and discover your best self.

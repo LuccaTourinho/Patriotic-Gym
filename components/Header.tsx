@@ -57,7 +57,7 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
               </Button>
             </div>
             <button onClick={() => setMobileNavActive(!mobileNavActive)} className='xl:hidden'>
-              <FontAwesomeIcon icon={faBars} className='text-[#B31942] hover:text-[#6C2E04] text-4xl'/>
+              <FontAwesomeIcon icon={faBars} className='text-[#B31942] hover:text-[#0A3161] text-4xl'/>
             </button>
           </div>
         </div>

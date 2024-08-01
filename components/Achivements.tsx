@@ -96,7 +96,7 @@ const Achivements: React.FunctionComponent<IAchivementsProps> = (props) => {
                         Isso garante que a animação de contagem comece apenas quando o elemento estiver visível na tela.
                       */
                       }
-                      <div className='text-center border-[1px] rounded-full h-[120px] w-[120px] border-[#FCDE34] flex justify-center items-center'>
+                      <div className='text-center border-[1px] rounded-full h-[120px] w-[120px] border-[#B31942] flex justify-center items-center'>
                         {
                           isInView && (<CountUp  start={0} end={stat.number} duration={6} className='text-4xl text-[#B31942]'/>)
                         }

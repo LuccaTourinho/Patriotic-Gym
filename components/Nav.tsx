@@ -32,7 +32,7 @@ const Nav: React.FunctionComponent<INavProps> = (props) => {
                         smooth
                         spy
                         activeClass="active"
-                        className='cursor-pointer text-md hover:text-[#6C2E04] hover:scale-110 transition-all font-playfair-display font-extrabold'
+                        className='cursor-pointer text-md hover:text-[#0A3161] hover:scale-110 transition-all font-playfair-display font-extrabold'
                         key={index}
                     >
                         {link.name}
