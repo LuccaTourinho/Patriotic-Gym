@@ -213,19 +213,19 @@ const Team: React.FunctionComponent<ITeamProps> = (props) => {
         viewport={{ once: false , amount: 0.2}}
         >
           <Button
-                  variant={'default'}
-                  className={`
-                      mt-8 w-40 text-center bg-[#B31942] text-[#F2F2F2] rounded-none
-                      relative overflow-hidden 
-                      before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#0A3161] 
-                      before:transition-transform before:duration-500 before:origin-bottom-center
-                      hover:before:scale-x-100 before:scale-x-0
-                  `}
-              >
+            variant={'default'}
+            className={`
+                mt-8 w-40 text-center bg-[#B31942] text-[#F2F2F2] rounded-none
+                relative overflow-hidden 
+                before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#0A3161] 
+                before:transition-transform before:duration-500 before:origin-bottom-center
+                hover:before:scale-x-100 before:scale-x-0
+            `}
+          >
                   <Link href={''}>
                       <span className="relative z-10 text-white uppercase">see all trainers</span>
                   </Link>
-              </Button>
+          </Button>
         </motion.div>
       </motion.div>
     </section>
