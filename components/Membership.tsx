@@ -44,13 +44,13 @@ const Membership: React.FunctionComponent<IMembershipProps> = (props) => {
           viewport={{ once: false , amount: 0.2}}
           className='flex flex-col justify-center items-center'
         >
-          <div className='absolute bg-black opacity-30 w-full h-full top-0'></div>
+          <div className='absolute bg-black opacity-30 w-full h-full top-0 z-10'></div>
           <motion.h2 
             variants={pricesVariant}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false , amount: 0.2}}
-            className='text-5xl text-center text-[#B31942] uppercase font-roboto-slab'
+            className='text-5xl text-center text-[#B31942] uppercase font-roboto-slab z-20'
           >
             membership
           </motion.h2>
@@ -59,6 +59,7 @@ const Membership: React.FunctionComponent<IMembershipProps> = (props) => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false , amount: 0.2}}
+            className='z-20'
           > 
             <MembershipSlider/>
           </motion.div>

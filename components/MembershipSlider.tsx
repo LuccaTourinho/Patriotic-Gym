@@ -52,7 +52,7 @@ const MembershipSlider: React.FunctionComponent<IMembershipSliderProps> = (props
                     <div key={index} className='flex flex-col gap-4 justify-center items-center border-4 border-[#B31942] text-center p-4 my-3'>
                         <h3 className='text-3xl font-roboto-slab text-[#B31942] uppercase font-extrabold border-b-2 w-full border-[#B31942]'>{price.name}</h3>
                         {Object.entries(price.gains).map(([gain, value], index) => (
-                            <p key={index} className='text-md font-oswald text-[#B31942] flex items-center font-extrabold'>
+                            <p key={index} className='text-md font-oswald text-[#B31942] flex items-center font-extrabold uppercase'>
                             {value ? (
                                 <FontAwesomeIcon icon={faCheck} className='text-green-500 mr-2' />
                             ) : (
